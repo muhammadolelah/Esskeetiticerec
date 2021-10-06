@@ -15,11 +15,11 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	appCenterSdkVersion = '4.3.1'
 	implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
 	implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	def appCenterSdkVersion = '4.3.1'
 	
 }
 
